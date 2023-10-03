@@ -29,6 +29,10 @@ sudo adduser <newuser>
 sudo usermod -aG sudo <newuser>
 su - <newuser>
 
+Removing user
+sudo deluser --remove-home <username>
+sudo deluser <username> //keep their home directory and files
+
 Rebooting and Shutting Down
 sudo shutdown -h 10:00 "Shutting down for scheduled maintenance."  //for system booted in systemd
 
